@@ -11,6 +11,8 @@
 
   In the folder where the app.yaml file is located run ```dev_appserver.py app.yaml```
   
+* Add the html, css, javascript, etc files in the www folder
+  
 * Upload application to App Engine
 
   ```gcloud app deploy --version [YOUR_VERSION_ID] --project [YOUR_PROJECT_ID]```
